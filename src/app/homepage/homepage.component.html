@@ -1,0 +1,8 @@
+<div class="p-grid">
+    <div class="p-col-3" *ngFor="let page of pages">
+        <p-card [routerLink]="'/list'">
+            {{page.name}}
+        </p-card>
+    </div>
+
+</div>

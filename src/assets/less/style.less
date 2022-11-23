@@ -1,0 +1,43 @@
+
+
+@import "primeng.less";
+@import "variables.less";
+@import "editor.less";
+
+@import 'prismjs/themes/prism-okaidia.css';
+@import 'prismjs/plugins/line-numbers/prism-line-numbers.css';
+@import 'prismjs/plugins/line-highlight/prism-line-highlight.css';
+
+
+
+
+
+
+body {
+    background-color: #efefef;
+    padding: 20px;
+}
+
+
+.sidebar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: @white;
+    overflow-x: hidden;
+    transition: 0.1s;
+    padding-top: 50px;
+    border-right: 1px solid #dee5e7;
+
+}
+
+
+#main {
+    transition: margin-left 0.1s;
+    padding: 0px;
+    margin-left: 200px;
+    padding-top: 50px;
+}

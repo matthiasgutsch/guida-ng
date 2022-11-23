@@ -1,0 +1,38 @@
+<div class="navbar-top">
+
+</div>
+<div class="sidebar open" id="mySidebar">
+
+    <ul>
+        <li *ngFor="let page of pages">
+            <a [routerLink]="'/list'">
+            {{page.name}}
+        </a>
+        </li>
+    </ul>
+
+</div>
+
+<div id="main" class="close">
+
+    <p-card class="docu">
+        <markdown class="variable-binding" [data]="markdown" lineNumbers></markdown>
+
+        <h1>Hello</h1>
+        <markdown class="variable-binding" [data]="markdownOne" lineNumbers></markdown>
+        <hr>
+        <h3>Hello</h3>
+        <p>We and our partners store and/or access information on a device, such as cookies and process personal data, such as unique identifiers and standard information sent by a device for personalised ads and content, ad and content measurement, and
+            audience insights, as well as to develop and improve products. With your permission we and our partners </p>
+        <markdown class="variable-binding" [data]="markdownOne" lineNumbers></markdown>
+        <p>We and our partners store and/or access information on a device, such as cookies and process personal data, such as unique identifiers and standard information sent by a device for personalised ads and content, ad and content measurement, and
+            audience insights, as well as to develop and improve products. With your permission we and our partners </p>
+
+
+        <markdown class="variable-binding" [data]="markdownOne" lineNumbers></markdown>
+
+
+        <markdown class="variable-binding" [data]="markdownOne" lineNumbers></markdown>
+
+    </p-card>
+</div>
